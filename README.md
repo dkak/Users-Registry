@@ -1,4 +1,4 @@
-# UsersRegistry
+# Users Registry
 Simple web application, registering users through a form in a database. Then retrieving the data and displaying them as a list and deleting any user.
 
 Technical Specifications:
