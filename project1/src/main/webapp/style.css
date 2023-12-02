@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+
+/* -------- Navigation Menu -------- */
+.navigationMenu ul{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigationMenu li {
+  float: left;
+  border-right: 1px solid white;
+}
+
+.navigationMenu ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:20px;
+
+}
+
+li .active{
+	background-color: #0000FF;
+}
+
+
+li:last-child{
+	float:right;
+}
+
+.navigationMenu a:hover {
+  background-color: #0a2351;
+}
+
+
+
+/* ---------- Home Page Menu ------------*/
+body .homePageMenu{
+  background: white;
+  margin:auto;
+  width:50%;
+  margin-top: 10%;
+}
+
+
+.homePageMenu ol{
+  list-style-type: none; 
+}
+
+
+
+#display,#register{
+  
+  height:50px;
+  width:600px;
+  background:black;
+  text-align:center;
+  font-size:30px;
+  background-size:1px 300%;
+ -webkit-transition:0.5s;
+  transition:0.5s;
+  color:White;
+  font-family:'Courier New', Courier, monospace;
+  text-decoration:none;
+  cursor:pointer; 
+}
+
+
+#noOptions{
+  
+  margin-top:10%;
+  height:50px;
+  width:600px;
+  background:black;
+  text-align:center;
+  font-size:30px;
+  background-size: 2px 300%;
+ -webkit-transition:0.5s;
+  color:White;
+  font-family:'Courier New', Courier, monospace;
+  text-decoration:none;
+}
+
+#display:hover {
+  display:flex;
+  margin-bottom:5%;	
+  background:blue;
+  color:white;
+  -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);
+}
+
+#register:hover {
+  margin-bottom: 10%;
+  display:flex;	
+  background:blue;
+  color:white;
+  -webkit-transform:rotate(-2deg);
+  transform:rotate(-2deg);
+}
+
+
+/* -------Displaying Users---------- */
+
+body .displayingTable{
+  margin:auto;
+  width:15%;
+  margin-top:5%;
+}
+
+.displayingTable td,th{
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+.displayingTable th{
+	font-family:'Courier New', Courier, monospace;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.displayingTable tr:nth-of-type(even) {
+  background-color:#AFDBF5;
+}
+
+
+.listItem{
+	color:black; 
+	text-decoration:none;
+	font-family:'Courier New', Courier, monospace;
+}
+
+.displayingTable a:hover{
+	color:blue;
+}
+
+.displayingTable tr:nth-of-type(even) a:hover {
+  color:white;
+}
+
+
+/* -------Registering User---------- */
+.mainText h2{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 30px;
+	color: black;
+}
+
+body .registrationTable{
+  margin:auto;
+  width:15%;
+  margin-top:10%;
+}
+
+.registrationTable label,option,select,input{
+	font-family:'Courier New', Courier, monospace;
+	font-size: 20px;
+	width: 200px;
+	height: 30px;
+}
+
+.registrationTable input{
+	text-align: center;
+}
+
+.registrationTable td{
+	padding-bottom: 10px;
+}
+
+.registrationTable select{
+	width:206px;
+	height:30px;
+	text-align: center;
+}
+
+.registrationTable #submitButton{
+	color:White;
+	background-color: blue;
+	border-radius: 10px;
+	border:0;
+	width: 210px;
+	height:40px;
+	transition:0.5s;
+}
+
+
+.registrationTable #requiredFieldsLabel{
+	color: #000000;
+	font-size: 12px;
+}
+
+#requiredFieldsTD{
+	text-align: center;
+}
+
+.date:active{
+	background-color: #AFDBF5;
+}
+
+#submitButton:hover{
+	 background:#002D62;
+	 cursor:pointer; 
+}
+
+/* -------Displaying Detailed User---------- */
+
+body .displayingDetailedTable{
+  margin:auto;
+  width:50%;
+  margin-top:5%;
+}
+
+.displayingDetailedTable td,th{
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+.displayingDetailedTable th{
+	font-family:'Courier New', Courier, monospace;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.displayingDetailedTable tr:nth-of-type(even) {
+  background-color:#AFDBF5;
+}
+
+
+
+ 
